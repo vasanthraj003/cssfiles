@@ -1,0 +1,200 @@
+body
+{
+	background-color: #f4f471;
+	margin-bottom: 100px;
+}
+h1
+{
+
+	color:#800000;
+	font-size:75px;
+	font-style:italic;
+	font-family:"Times New Roman", Times, serif;
+	padding:25px;
+	margin-left: 50px;
+	text-align: center;
+
+}
+p
+{
+	font-size:20px;
+	font-style:italic;
+	display: none;
+}
+ .l1{
+	font-size:25px;
+	text-decoration: none;
+	border:1px solid yellow;
+	padding:10px;
+	background-color: yellow;
+}
+.l1:link
+{
+	color:pink;
+}
+.l1:visited
+{
+	color:green;
+}
+.l1:hover
+{
+	color:red;
+}
+.l1:active
+{
+	color:black;
+}
+ .list ul li
+{
+	border:1px solid black;
+	width:30%;
+	padding:10px;
+	background-color: #ffe5e5;
+}
+ul.ul1
+{
+  list-style-position: outside;
+  color:red;
+}
+ul.ul2
+{
+  list-style-position: outside;
+  color:red;
+}
+ul.ul3
+{
+  list-style-position: inside;
+  color:blue;
+}
+.img
+{
+	margin:50px 50px 25px 25px;
+	
+	position:absolute;
+	top:50px;
+	left:300px;
+	height:150px;
+	width:150px;
+	
+	float:left;
+	
+
+}
+img
+{
+	position:absolute;
+	z-index: -1;
+	height:150px;
+	width:150px;
+}
+.table
+{
+	  border-collapse: collapse;
+	outline:10px solid green;
+
+	
+}
+
+[class|="headings"]
+{
+	padding:20px;
+	font-size:30px;
+	background-color:teal;
+	
+}
+#row1
+{
+	padding:20px;
+	font-size:30px;
+	background-color: pink;
+}
+#row2
+{
+	padding:20px;
+	font-size:30px;
+	background-color: pink;
+}
+#row3
+{
+	padding:20px;
+	font-size:30px;
+	background-color: pink;
+}
+#row4
+{
+	padding:20px;
+	font-size:30px;
+	background-color: pink;
+}
+#row5
+{
+	padding:20px;
+	font-size:30px;
+	background-color: pink;
+}
+#row6
+{
+	padding:20px;
+	font-size:30px;
+	background-color: pink;
+}
+#miss1
+{
+	padding:20px;
+	font-size:30px;
+	background-color: pink;
+}
+#miss2
+{
+	padding:20px;
+	font-size:30px;
+	background-color: pink;
+}
+td.left
+{
+	text-align:left;
+}
+td.right
+{
+	text-align:right;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  border:0;
+  overflow: hidden;
+ background-color: mediumseagreen;
+height:100%;
+ 
+}
+
+.nav li {
+  float: left;
+  font-size:40px;
+
+  width:30%;
+ 
+}
+
+.nav li a {
+  display: block;
+color:white;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav li a:hover
+{
+	color:black;
+}
+
+table
+ {
+ 	font-size:30px;
+
+ }
+ tr:nth-child(even)
+ {background-color:grey;}
